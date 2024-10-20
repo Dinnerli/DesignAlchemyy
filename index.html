@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Klinik - Clinic Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="./img/new_img/DA-logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+    <link ink rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   <div class="header">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"> -->
+
+        <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h1 class="m-0 text-primary"  style="color: #ffffff;" ></h1> <img src="./img/new_img/DA-logo.png" style="width: 75px; height: 75px;" alt="">DESIGN ALCHEMY</h1>
+        </a>
+        
+        <div class="social-links">
+            <div class="social-icons" title="mail">
+                <svg width="60" height="59" viewBox="0 0 60 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30 31.3714L10.5 19.387V15.6441L29.7382 27.4676L30 27.6285L30.2618 27.4676L50.2618 15.1759L51.7685 14.2499H50H10H9.5V14.7499V19.6666V19.9462V44.2499V44.7499H10H50H50.5V44.2499V19.6666V18.7724L49.7382 19.2406L30 31.3714ZM10 48.6666C8.75597 48.6666 7.70484 48.2366 6.81932 47.3658C5.93406 46.4953 5.5 45.4656 5.5 44.2499V14.7499C5.5 13.5342 5.93406 12.5045 6.81932 11.634C7.70484 10.7633 8.75597 10.3333 10 10.3333H50C51.244 10.3333 52.2952 10.7633 53.1807 11.634C54.0659 12.5045 54.5 13.5342 54.5 14.7499V44.2499C54.5 45.4656 54.0659 46.4953 53.1807 47.3658C52.2952 48.2366 51.244 48.6666 50 48.6666H10Z" fill="#1D1B20" stroke="black"/>
+                </svg>
+            </div>
+            <div class="social-icons" title="facebook">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M36 4H30C27.3478 4 24.8043 5.05357 22.9289 6.92893C21.0536 8.8043 20 11.3478 20 14V20H14V28H20V44H28V28H34L36 20H28V14C28 13.4696 28.2107 12.9609 28.5858 12.5858C28.9609 12.2107 29.4696 12 30 12H36V4Z" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>     
+            </div>
+            <div class="social-icons" title="instagram">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M35 13H35.02M14 4H34C39.5228 4 44 8.47715 44 14V34C44 39.5228 39.5228 44 34 44H14C8.47715 44 4 39.5228 4 34V14C4 8.47715 8.47715 4 14 4ZM32 22.74C32.2468 24.4045 31.9625 26.1044 31.1875 27.598C30.4125 29.0916 29.1863 30.3028 27.6833 31.0593C26.1802 31.8159 24.4769 32.0792 22.8156 31.8119C21.1543 31.5445 19.6195 30.7602 18.4297 29.5703C17.2398 28.3805 16.4555 26.8457 16.1881 25.1844C15.9208 23.5231 16.1841 21.8198 16.9407 20.3167C17.6972 18.8137 18.9084 17.5875 20.402 16.8125C21.8956 16.0375 23.5955 15.7532 25.26 16C26.9578 16.2518 28.5297 17.0429 29.7434 18.2566C30.9571 19.4703 31.7482 21.0422 32 22.74Z" stroke="#1E1E1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+  <!-- About Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="d-flex flex-column">
+                    <img class="img-fluid rounded w-75 align-self-end" src="./img/new_img/A2.png" style="width: 1004px !important; height: 627px;">
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                
+                <div class="slogan-section">
+                    <div class="slogan">Transforming Spaces</div>
+                    <div class="slogan2">Elevating Lives</div>
+                </div>
+                <p>Step into a world where the art of Interior Design is meticulously crafted to bring together timeless elegance and cutting-edge modern Innovation, Allowing you to transform your living spaces into the epitome of luxury and sophistication.</p>
+               
+            
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid header d-none d-lg-block" style="background-color: #000000;height: 1000px;">
+        <div class="row g-0 align-items-center">
+   
+    
+            <div class="col-lg-12 wow fadeIn" data-wow-delay="0.5s" style="margin: 20px;">
+                <div class="owl-carousel header-carousel">
+                    <!-- First carousel item (text + image in the same row) -->
+                    <div class="owl-carousel-item position-relative">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="text-light mb-0">
+                                    <div class="col-lg-12wow fadeIn" data-wow-delay="0.1s" style="margin: 10px;text-align: left;">
+                                        <h1 class="display-4 text-white mb-5">Box House</h1>
+                                    </div>
+                                <p class="text-light mb-0" style="margin: 10px;text-align: left;">
+                                    Once an old factory, this Pelawatta residence has been transformed into a serene, modern haven.
+                                    The renovation embraces natural light and greenery, seamlessly blending indoor and outdoor spaces.
+                                    With minimalist design and neutral tones, this home now offers a peaceful retreat, combining its
+                                    industrial past with modern elegance.
+                                </p>
+                            </div>
+                            <div class="col-lg-6 text-end ">
+                                  <img class="img-fluid" src="./img/new_img/Untitled design (1).png" style="height:600;width: 450px; text-align: left;">
+                            </div>
+                        </div>
+                        <div class="thumbnail-container">
+                            <img src="./img/new_img/box-house-2.png" alt="Thumbnail 1">
+                            <img src="./img/new_img/box-house-3.png" alt="Thumbnail 2">
+                            <img src="./img/new_img/box-house-4.png" alt="Thumbnail 3">
+                        </div>
+                    </div>
+    
+                    <!-- Second carousel item (text + image in the same row) -->
+                    <div class="owl-carousel-item position-relative">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="text-light mb-0">
+                                    <div class="col-lg-12wow fadeIn" data-wow-delay="0.1s" style="margin: 10px;text-align: left;">
+                                        <h1 class="display-4 text-white mb-5">Box House </h1>
+                                    </div>
+                                 <p class="text-light mb-0" style="margin: 10px;text-align: left;">
+                                    The second phase of the renovation focuses on the fusion of modern aesthetics with natural 
+                                    elements, providing a seamless blend between the indoor and outdoor spaces.
+                                    The second phase of the renovation focuses on the fusion of modern aesthetics with natural 
+                                 
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="text-light mb-0">
+                                  
+                                <img class="img-fluid" src="./img/new_img/Untitled design (2).png" style="height:600;width: 450px; text-align: left;">
+                            </div>
+                        </div>
+                        <div class="thumbnail-container">
+                            <img src="./img/new_img/box-house-2.png" alt="Thumbnail 1">
+                            <img src="./img/new_img/box-house-3.png" alt="Thumbnail 2">
+                            <img src="./img/new_img/box-house-4.png" alt="Thumbnail 3">
+                        </div>
+                    </div>
+    
+                    <!-- Third carousel item (text + image in the same row) -->
+                    <div class="owl-carousel-item position-relative">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="col-lg-12wow fadeIn" data-wow-delay="0.1s" style="margin: 10px;text-align: left;">
+                                    <h1 class="display-4 text-white mb-5">Box House</h1>
+                                </div>
+                                <p class="text-light mb-0" style="margin: 10px;text-align: left;">
+                                    This home is a perfect representation of how industrial design can coexist with contemporary 
+                                    architecture to create a timeless and peaceful environment.
+                                </p>
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid" src="./img/new_img/box-house-4.png" style="height:600;width: 450px;">
+                            </div>
+                        </div>
+                        <div class="thumbnail-container">
+                            <img src="./img/new_img/box-house-2.png" alt="Thumbnail 1">
+                            <img src="./img/new_img/box-house-3.png" alt="Thumbnail 2">
+                            <img src="./img/new_img/box-house-4.png" alt="Thumbnail 3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+    
+    <!-- <div class="project-gallery">
+        <img src="./img/new_img/box-house-3.png" alt="Box House Image 1" class="gallery-image">
+        <img src="./img/new_img/box-house-2.png" alt="Box House Image 2" class="gallery-image">
+        <img src="./img/new_img/box-house-4.png" alt="Box House Image 3" class="gallery-image">
+    </div>  -->
+    <!-- Header End -->
+
+
+  
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5" style="padding-top: 60px;">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1>Our Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <img src="./img/new_img/svgs/Interior design icon.svg" alt="Interior Design Icon" style="width: 40px; height: 40px;">
+                        </div>
+                        <h4 class="mb-3">Interior Design</h4>
+                        <p class="mb-4">From concept to completion, we oversee every detail to bring your vision to life efficiently.</p>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <img src="./img/new_img/svgs/Lighting design icon.svg" alt="Furnishing Consultation Icon" style="width: 40px; height: 40px;">
+                        </div>
+                        <h4 class="mb-3">Furnishing Consultation</h4>
+                        <p class="mb-4">Receive guidance on selecting the finest materials, fittings, and custom-designed furniture, tailored to your style.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item bg-light rounded h-100 p-5">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-white rounded-circle mb-4" style="width: 65px; height: 65px;">
+                            <img src="./img/new_img/svgs/Outdoor design icon.svg" alt="Furnishing Consultation Icon" style="width: 40px; height: 40px;">
+                        </div>
+                        <h4 class="mb-3">3D Visualization</h4>
+                        <p class="mb-4">Bring your design ideas to life with detailed 3D renderings that offer a realistic preview.</p>
+                     
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Feature Start -->
+    <div class="container-fluid" style="background-color: #000000;">
+        <div class="container feature px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 feature-text py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="p-lg-5 ps-lg-0" >
+                        <h1>Designing Your Dream in Three Simple Steps</h1>
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="./img/new_img/svgs/Group 25.svg" style="height: 60px;width: 60px;">
+                            </div>
+                            <div class="step-description">
+                                <h3> Start Project</h3>
+                                <p>Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="./img/new_img/svgs/Group 26.svg" style="height: 60px;width: 60px;" alt="Craft Icon">
+                            </div>
+                            <div class="step-description">
+                                <h3>Craft</h3>
+                                <p>Collaborate closely to achieve design excellence, refining your vision and crafting brilliance into every aspect of your space.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <img src="./img/new_img/svgs/Group 27.svg" style="height: 60px;width: 60px;" alt="Execute Icon">
+                            </div>
+                            <div class="step-description">
+                                <h3>Execute</h3>
+                                <p>Witness your vision becoming a reality as we execute the design plan with precision. Celebrate the joy of your newly transformed space.</p>
+                            </div>
+                        </div>   
+                        
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeIn" data-wow-delay="0.5s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="./img/new_img/modern-tranquility-steps.png" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+
+
+
+
+    <!-- Appointment Start -->
+    <div class="container-xxl py-5">
+        <div class="text-center">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            
+                    <h1 class="mb-4">Take the next step</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    
+                      
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="text-center"></div>
+                    <div class="bg-light rounded h-100 d-flex align-items-center p-5">
+                        <form>
+                            <div class="row g-3">
+                               >
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                               
+                               
+                                
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+    
+    
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Address</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Colombo, Sri Lanka</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+94 764052630</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-light mb-4">Services</h5>
+                    <a class="btn btn-link" href="">Interior design</a>
+                    <a class="btn btn-link" href="">Lighting design</a>
+                    <a class="btn btn-link" href="">Outdoor design</a>
+                    <a class="btn btn-link" href="">Office design</a>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6" id="footer-div-3">
+                    
+                    <a class="btn btn-link" href="">3D Visualization</a>
+                    <a class="btn btn-link" href="">Conceptualization</a>
+                    <a class="btn btn-link" href="">Design Drawings & Plans</a>
+                    <a class="btn btn-link" href="">Quotation & Budget Breakdown</a>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6" id="footer-div-4">
+                    <img src="./img/new_img/svgs/image 8765 1 (1).svg" style="height: 90px;width: 90px;">
+                    <p style="margin-top: 0;" class="mb-2">Design Alchemy, your premier destination for luxury and modern interior design</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;text-align:right;">
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Design Alchemy</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
